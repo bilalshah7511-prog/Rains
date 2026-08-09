@@ -116,8 +116,8 @@ body {
   background: rgba(16, 16, 15, 0.8) !important;
   color: var(--brand-cta-fg) !important;
   border-radius: 999px !important;
-  border: 2px solid rgba(16, 16, 15, 0.8) !important;
-  border-color: rgba(16, 16, 15, 0.8) !important;
+  border: none !important;
+  outline: none !important;
   font-weight: 700;
   box-shadow: none !important;
 }
@@ -125,7 +125,8 @@ body {
 .add-to-cart-btn:hover,
 .checkout-cta:not(:disabled):hover {
   background: rgba(16, 16, 15, 0.95) !important;
-  border-color: rgba(16, 16, 15, 0.95) !important;
+  border: none !important;
+  outline: none !important;
   color: #fff !important;
 }
 
@@ -585,27 +586,28 @@ html:has(.cart-drawer.is-open)::-webkit-scrollbar {
 .pdp-sheet__cta {
   background: rgba(16, 16, 15, 0.8) !important;
   color: #fff !important;
-  border: 2px solid rgba(16, 16, 15, 0.8) !important;
-  border-color: rgba(16, 16, 15, 0.8) !important;
+  border: none !important;
+  outline: none !important;
   border-radius: 999px !important;
   text-transform: none !important;
   letter-spacing: 0.02em !important;
   box-shadow: none !important;
-  outline: none !important;
 }
 
 .cart-drawer__checkout:not(:disabled):hover,
 .total-sheet__close:hover,
 .pdp-sheet__cta:hover {
   background: rgba(16, 16, 15, 0.95) !important;
-  border-color: rgba(16, 16, 15, 0.95) !important;
+  border: none !important;
+  outline: none !important;
 }
 
 .cart-drawer__checkout {
   width: calc(100% - 16px) !important;
   margin: 0 8px !important;
   font-weight: 600 !important;
-  border: 2px solid rgba(16, 16, 15, 0.8) !important;
+  border: none !important;
+  outline: none !important;
   background: rgba(16, 16, 15, 0.8) !important;
 }
 
